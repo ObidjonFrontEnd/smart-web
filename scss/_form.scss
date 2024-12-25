@@ -1,0 +1,83 @@
+form{
+    padding: 100px 0;
+    .title{
+        margin-bottom: 50px;
+    }
+    .cards{
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        max-width: 720px;
+        margin: auto;
+        .card{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            gap: 20px;
+            width: 100%;
+            input{
+                max-width: 343px;
+                margin: auto;
+                width:100%;
+                height: 52px;
+                border: none;
+                outline: none;
+                box-shadow: 0px 4px 120px 0px #00000008;
+                background-color:white ;
+                padding: 15px;
+                border-radius: 5px;
+                font-family: "DM Sans";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 18.23px;
+                color: $txt-clr;
+    
+            }
+            label{
+                font-family: "DM Sans";
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 23.44px;
+                text-transform: uppercase;
+                color: $txt-clr;
+                margin: auto;
+            }
+        }
+    }
+    .other{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 720px;
+        margin-top:34px ;
+        label{
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23.44px;
+            text-transform: uppercase;
+            color: $txt-clr;
+            margin-bottom: 16px;
+        }
+        textarea{
+            resize: none;
+            height: 191px;
+            outline: none;
+            overflow-y: hidden;
+            border: none;
+            box-shadow: 0px 4px 120px 0px #00000008;
+            font-family: "DM Sans";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 18.23px;
+            color: $txt-clr;
+            padding: 15px;
+        }
+    }
+    .btn{
+        max-width: 720px;
+        text-align: end;
+        margin: auto;
+        margin-top: 65px;
+    }
+}

@@ -1,0 +1,72 @@
+header{
+    nav{
+        padding: 25px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            h2{
+                color: $txt-clr;
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 30.81px;
+                &:hover{
+                    @include text-gradiant;
+                }
+            }
+        }
+        ul{
+            display: flex;
+            gap: 60px;
+            li{
+                a{
+                    font-family: "DM Sans";
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18.23px;
+                    color: $txt-clr;
+                    &:hover{
+                        @include text-gradiant;
+                    }
+
+                }
+            }
+        }
+        .bi-list{
+            display: none;
+            font-size: 35px;
+        }
+    }
+    .hero{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hero-info{
+            h1{
+                color: $txt-clr;
+                font-size: 72px;
+                font-weight: 500;
+                line-height: 85.32px;
+                max-width: 515px;
+            }
+            p{
+                color: $txt-clr;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23.7px;
+                max-width: 536px;
+                margin: 40px 0;
+            }
+        }
+        .hero-photo{
+            max-width:626px ;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

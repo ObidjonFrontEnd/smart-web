@@ -1,0 +1,75 @@
+.team{
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 36px;
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0px 4px 120px  #0000000D;
+            background-color: #EEEFF1;
+            border-radius: 10px;
+            padding: 10px;
+            max-width: 267px;
+            min-height: 400px;
+            margin: auto;
+            h2{
+                font-family: "DM Sans";
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 30px;
+                color: $txt-clr;
+                margin-top: 18px;
+            }
+            p{
+                font-family: "DM Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                color:#999999;
+                margin-bottom: 18px;
+            }
+            .card-photo{
+                max-width: 241px;
+                height: 249px;
+                border-radius: 10px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    margin-top: -30px;
+                }
+            }
+            .card-photo-1{
+                max-width: 241px;
+                height: 249px;
+                border-radius: 10px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                }
+            }
+            .icons{
+                display: flex;
+                gap: 10px;
+                .icon{
+                    width: 30.93px;
+                    height: 30.93px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .bg-1{
+                    background-color: #4D77CF;
+                }
+                .bg-2{
+                    background-color: #1DA1F2;
+                }
+                .bg-3{
+                    background-color: #0077B5;
+                }
+            }
+        }
+    }
+}
